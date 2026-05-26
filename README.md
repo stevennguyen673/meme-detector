@@ -10,7 +10,7 @@ A real-time gesture recognition app that triggers memes based on your body movem
 
 The app uses a pre-trained MoveNet pose estimation model to detect 17 body keypoints from your webcam feed in real time. Custom gesture logic interprets those keypoints and triggers a meme when a gesture is detected.
 
-**Supported Gestures:**
+**Supported Gestures (Planning to add more):**
 | Gesture | Meme |
 |---|---|
 | Left hand near left ear | Angry Birds |

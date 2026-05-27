@@ -56,3 +56,11 @@ Press `q` to quit.
 - **Module-level model loading** — the TFLite interpreter loads once at import time rather than every frame, keeping inference fast
 - **Confidence thresholding** — keypoints below 0.3 confidence are ignored to prevent ghost detections from triggering gestures
 - **State-gated updates** — `prev_nose_x` only updates when nose confidence is sufficient, preventing bad values from corrupting movement detection
+
+## Web Version
+
+A browser-based port of this project is available at:
+- **[Live Demo](https://stevennguyen673.github.io/meme-detector-web)**
+- **[Repository](https://github.com/stevennguyen673/meme-detector-web)**
+
+Rebuilt using TensorFlow.js and the browser webcam API — no installation required.

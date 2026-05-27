@@ -27,7 +27,7 @@ The app uses a pre-trained MoveNet pose estimation model to detect 17 body keypo
 
 1. Clone the repo
 ```bash
-git clone https://github.com/yourusername/meme-detector.git
+git clone https://github.com/stevennguyen673/meme-detector.git
 cd meme-detector
 ```
 
